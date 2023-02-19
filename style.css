@@ -1,0 +1,125 @@
+*{
+    font-family: "Rimouski";
+}
+
+body{
+    background-color: #293251;
+}
+
+.container{
+    width: 50%;
+    background-color: white;
+
+    position: absolute;
+    top: 25%;
+    left: 25%;
+
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.app-title{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+.app-title p{
+    text-align: center;
+    font-weight: bolder;
+    padding: 10%;
+    margin: 0 auto;
+    font-size: 2.5em;
+    color: #293251;
+}
+
+.notification{
+    width: 70%;
+    margin: 0 auto;
+    background-color: crimson;
+    display: none;
+}
+
+.notification p{
+    color: antiquewhite;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.weather-container{
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+.weather-icon{
+    width: 50%;
+    height: 50%;
+
+    display: block;
+    margin: 0 auto;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature{
+    width: 50%;
+    height: 35%;
+
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature button{
+    display: block;
+    margin: 0 auto;
+
+    text-decoration: none;
+    color: #293251;
+    cursor: pointer;
+    background-color: beige;
+    border: none;
+}
+
+.temperature p{
+    padding: 0;
+    margin: 0;
+    font-size: 4em;
+    text-align: center;
+}
+
+.temperature span{
+    font-size: 0.5em;
+}
+
+.temperature button:hover{
+    color: burlywood;
+}
+
+
+.description p{
+    padding: 2%;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding-bottom: 5%;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
